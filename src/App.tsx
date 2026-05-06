@@ -7,8 +7,6 @@ import Genre from './pages/Genre'
 
 function Footer() {
   return (
-    function Footer() {
-  return (
     <footer
       className="text-center py-8 mt-16 text-sm"
       style={{ borderTop: '1px solid #2a2a3e', color: '#A7A9BE' }}
@@ -20,8 +18,6 @@ function Footer() {
         <a href="https://github.com/Helenyixuanwang" target="_blank" rel="noopener noreferrer" style={{ color: '#E8A838' }}>GitHub</a>
       </p>
     </footer>
-  )
-}
   )
 }
 
