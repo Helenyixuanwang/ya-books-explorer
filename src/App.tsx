@@ -7,20 +7,21 @@ import Genre from './pages/Genre'
 
 function Footer() {
   return (
+    function Footer() {
+  return (
     <footer
       className="text-center py-8 mt-16 text-sm"
       style={{ borderTop: '1px solid #2a2a3e', color: '#A7A9BE' }}
     >
-      <p className="mb-3">Built by Helen Wang</p>
-      <div className="flex justify-center gap-6">
-        <a href="https://linkedin.com/in/helenyixuanwang" target="_blank" rel="noopener noreferrer" style={{ color: '#E8A838' }}>
-          LinkedIn
-        </a>
-        <a href="https://github.com/Helenyixuanwang" target="_blank" rel="noopener noreferrer" style={{ color: '#E8A838' }}>
-          GitHub
-        </a>
-      </div>
+      <p>
+        Built by Helen Wang |{' '}
+        <a href="https://linkedin.com/in/helenyixuanwang" target="_blank" rel="noopener noreferrer" style={{ color: '#E8A838' }}>LinkedIn</a>
+        {' '}|{' '}
+        <a href="https://github.com/Helenyixuanwang" target="_blank" rel="noopener noreferrer" style={{ color: '#E8A838' }}>GitHub</a>
+      </p>
     </footer>
+  )
+}
   )
 }
 
